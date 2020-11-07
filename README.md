@@ -1,12 +1,15 @@
 # table-tennis-scores-app
-Apologies for the length of this README...! I feel it's always good to make notes while developing these mini apps, and I have a lot of fun with these.
+Apologies for the length of this README...! I feel it's always good to make notes while developing these mini apps to stoke up some talking points, and I do have a lot of fun with these.
+
+I hope you enjoy looking through this submission, and thank you for your time and consideration!
 
 ## Build and run
 1. Build
 > npm run build
 
-2. Run the app, and run the dev REST API
+2. Run the app, and the REST API
 > npm run start:app
+
 > npm run start:api
 
 ## Developer notes
