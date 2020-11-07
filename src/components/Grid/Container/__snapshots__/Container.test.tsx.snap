@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Grid/Container should render as expected, without crashing 1`] = `
+<div
+  class="sc-bdfBwQ gvxfZJ"
+>
+  <div>
+    Some content
+  </div>
+</div>
+`;

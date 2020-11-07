@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components PlayersView should render as expected, without crashing 1`] = `
+<div>
+  <header
+    class="sc-bqyKva dDkKpL"
+  >
+    <div
+      class="sc-crrsfI lmciGZ"
+    >
+      <h1
+        class="sc-dQppl bgPUqp"
+      >
+        Current Players
+      </h1>
+      <figure
+        class="sc-iqHYGH iAWWDc"
+      >
+        <svg>
+          loader.svg
+        </svg>
+      </figure>
+    </div>
+    <div
+      class="sc-kstrdz fMSFqt"
+    >
+      <button
+        class="sc-bdfBwQ gxmLa-d"
+        type="button"
+      >
+        Create Player
+      </button>
+    </div>
+  </header>
+  <ul
+    class="sc-hBEYos fMsFPQ"
+  />
+</div>
+`;
