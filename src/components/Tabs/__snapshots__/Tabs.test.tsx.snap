@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Tabs should render as expected, without crashing 1`] = `
+<nav>
+  <ul
+    class="sc-kfzAmx fHNeVM"
+  >
+    <li
+      class="sc-bBXqnf loegsG"
+    >
+      <button
+        class="sc-fKFyDc bkYuUL"
+        type="button"
+      >
+        Players
+      </button>
+    </li>
+    <li
+      class="sc-bBXqnf loegsG"
+    >
+      <button
+        class="sc-fKFyDc jGhKL"
+        type="button"
+      >
+        Games
+      </button>
+    </li>
+  </ul>
+</nav>
+`;
