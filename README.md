@@ -13,18 +13,20 @@ With `json-server` to serve up the dataset via a local API, and `serve` to serve
 
 I hope you enjoy looking through this submission, and thank you for your time and consideration!
 
-## Build and run
+## Install, build and run
 
-1. Run the mock REST API:
+1. Install
+
+   > `npm i`
+
+2. Build and serve the app:
+
+   > `npm run build && npm run serve`
+
+3. Run the mock REST API in a separate terminal:
 
    > `npm run api`
 
-2. Build the app:
-
-   > `npm run build`
-
-3. Serve the built app:
-   > `npm run serve`
 
 App will be accessible at http://locahost:5000, and the API at http://localhost:3001.
 
@@ -74,7 +76,7 @@ All apps need a name. Here were a few runner-ups, in no order of quality:
 - Without a Paddle
 - Off the Table
 - Ping When You're Winning
-- Not now, I'm develoPing
+- Not now, I'm develoPING
 - PNG
 - There Can Be Only One
 - What's my ping?
