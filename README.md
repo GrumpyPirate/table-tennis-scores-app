@@ -32,9 +32,9 @@ App will be accessible at http://locahost:5000, and the API at http://localhost:
 
 ## Developer notes
 
-- The `games` dataset had to be extended so that each game has an `id`, in order to be able to add a new one via a POST request. I also noticed that the games are in a random date order. Ultimately, we need to display these in date order in the visualisation, so this was performed at the API level.
+- The `games` dataset had to be extended so that each game has an `id`, in order to be able to add a new one via a POST request. I also noticed that the games are in a random date order. Ultimately, we need to display these in date order in the visualisation, so the ordering was performed at the API level.
 
-  - This allows frontends to simply display what they get back, avoiding the need for CPU-intensive post-processing. In the real world, this ordering would then also get cached by the infrastructure, speeding up subsequent responses.
+  - This allows frontends to simply display what they get back, avoiding the need for CPU-intensive post-processing. In the real world, this ordered response would then also get cached by the infrastructure, speeding up subsequent responses.
 
 - The visualisation I settled on sucks. There isn't really enough data displayed for it to be a useful representation, and adding more than 20 entries to the x axis from the current derived data renders it illegible. I wanted to improve this further, but ended up having to timebox it to focus on other areas of the app like styling, and testing.
 
